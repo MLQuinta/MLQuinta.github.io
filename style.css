@@ -10,6 +10,15 @@ body, html {
 	font-size: 150%
 }
 
+
+.icon{
+	background-image: url("IMG/hamburger.png");
+	background-repeat: no-repeat;
+	 background-position: center;
+}
+
+
+
 .topnav {
   overflow: hidden;
   background-color: black;
@@ -26,20 +35,26 @@ body, html {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: black;
   color: black;
 }
 
 
 .topnav .icon {
   display: none;
+ 
 }
+
+
+
+
 
 @media screen and (max-width: 390px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+	
   }
 }
 
